@@ -1,0 +1,48 @@
+
+body{
+    margin: 0;
+    font-family: Arial;
+    background: var(--main-color);
+    color: var(--text-color);
+}
+
+div {
+    font-size: 3em;
+    border: solid 5px black;
+    padding: 50px;
+    margin: 20px;
+}
+
+div:nth-child(1) {
+    background-color: var(--cor-padrao);
+}
+
+div:nth-child(2) {
+    background-color: var(--cor-sucesso);
+}
+
+div:nth-child(3) {
+    background-color: var(--cor-perigo);
+}
+
+p {
+    font-size: var(--font-paragraph);
+}
+
+.button {
+    border: 0;
+    display: inline-block;
+    margin: 0px 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.button--dark{
+    background-color: #000;
+    color: #FFF;
+}
+
+.button--light{
+    background-color: #FFF;
+    color: #000;
+}

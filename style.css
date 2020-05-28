@@ -1,0 +1,22 @@
+div {
+    font-size: 3em;
+    border: solid 5px black;
+    padding: 50px;
+    margin: 20px;
+}
+
+div:nth-child(1) {
+    background-color: var(--cor-padrao);
+}
+
+div:nth-child(2) {
+    background-color: var(--cor-sucesso);
+}
+
+div:nth-child(3) {
+    background-color: var(--cor-perigo);
+}
+
+p {
+    font-size: var(--font-paragraph);
+}
